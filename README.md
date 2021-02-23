@@ -45,6 +45,9 @@ All events in this plugin return an object with the following properties:
 
 - __level__: The battery charge percentage (0-100). _(Number)_
 - __isPlugged__: A boolean that indicates whether the device is plugged in. _(Boolean)_
+- __temp__: The current temperature of the battery. _(Number)_
+- __volt__: The current voltage of the battery. _(Number)_
+- __health__: A boolean that indicates whether the device is plugged in. _(String)_
 
 ## batterystatus event
 
